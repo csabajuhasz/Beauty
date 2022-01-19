@@ -662,7 +662,7 @@ right: 5%;
 
 
 .nav__logo > img {
-  width: 30vh;
+  width: 15vh;
   border-radius: 10%;
   border-bottom: 1px solid red;
   border-left: 1px solid red;
@@ -698,13 +698,13 @@ right: 5%;
     border: 0;
   }
   .nav__logo >img {
-    width: 25vh;
+    width: 15vh;
   }
   
 }
 @media screen and (min-width: 1024px) {
   .nav__logo >img {
-    width: 30vh;
+    width: 15vh;
   }
   .nav__item > a {
     color: #000;
@@ -744,7 +744,7 @@ right: 5%;
 
 /* Main Block */
 
-.main__block{
+.main__block {
   width: 100%;
   background: linear-gradient(to top, rgba(0,0,0,0.1)50%,rgba(0,0,0,0.1)50%), url(/images/image1@1024.jpg);
   background-position: center;
@@ -752,14 +752,33 @@ right: 5%;
   height: 100vh;
 }
 
-.main__header{
-  position: relative;
-  opacity: 100%;
-}
-
-.main__text{
+.main__text {
   color: black;
   padding-top: 2px;
-  padding-left: 0.5rem;
+  padding-left: 1rem;
+}
+
+ .main__name {
+  font-size: 3rem;
+  
+  color: var(--color-headings); 
+
+  /* margin-top:  38rem;
+  margin-left: 57rem; */
+  
+}
+
+.paragraph__1 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  color: black;
+  
+}
+
+.paragraph__2 {
+  color: red;
+  font-style: italic;
+ 
 
 }
+ 
