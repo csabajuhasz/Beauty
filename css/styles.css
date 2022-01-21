@@ -746,7 +746,7 @@ right: 5%;
 
 .main__block {
   width: 100%;
-  background: linear-gradient(to top, rgba(0,0,0,0.1)50%,rgba(0,0,0,0.1)50%), url(./images/image1@1024.jpg);
+  background: linear-gradient(to top, rgba(0,0,0,0.1)50%,rgba(0,0,0,0.1)50%), url(/images/image1@1024.jpg);
   background-position: center;
   background-size: cover;
   height: 100vh;
