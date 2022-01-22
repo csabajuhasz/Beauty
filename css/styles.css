@@ -310,7 +310,10 @@ a {
 }
 
 .card--primary .card__header {
-  background: var(--color-primary);
+  background: linear-gradient(rgba(0,0,0,0.5),#009688), url(../images/nails3.jpg);
+  background-position: center;
+  background-size:cover;
+  height: 100vh;
   color: #fff;
 }
 
@@ -745,19 +748,28 @@ right: 5%;
 /* Main Block */
 
 .main__block {
+  text-align: center;
   width: 100%;
-  background: linear-gradient(to top, rgba(0,0,0,0.1)50%,rgba(0,0,0,0.1)50%), url(../images/image1@1024.jpg);
+  background: linear-gradient(rgba(0,0,0,0.5),#009688), url(../images/image1@1024.jpg);
   background-position: center;
-  background-size: cover;
+  background-size:cover;
   height: 100vh;
+  
 }
 
 .main__text {
+  font-size: 1.5rem;
   color: black;
-  padding-top: 2px;
+  padding-top: 1px;
   padding-left: 1rem;
 }
 
+.main__text > h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+
+}
   
 
   /* margin-top:  38rem;
@@ -766,16 +778,25 @@ right: 5%;
 
 
 .paragraph__1 {
-  margin-top: 1rem;
+  margin-top: 0;
   margin-bottom: 0;
   color: black;
   
 }
 
 .paragraph__2 {
-  color: red;
+  text-decoration: wavy;
   font-style: italic;
  
 
 }
+
+@media screen and (min-width: 500px) {
+  .main__text {
+    text-align: left;
+    
+  }
+    
+}
+
  
