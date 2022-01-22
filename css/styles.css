@@ -330,6 +330,15 @@ a {
   color: #fff;
 }
 
+.card--third .card__header {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), hsl(32, 58%, 46%)),
+    url(../images/craft.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 45vh;
+  color: #fff;
+}
+
 .card--secondary .badge--secondary {
   background: #f8786f;
 }
@@ -774,7 +783,7 @@ a {
 .main__text > h2 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #ccc;
 }
 
@@ -782,11 +791,13 @@ a {
   margin-top: 0;
   margin-bottom: 0;
   color: black;
+  text-decoration: underline;
+  font-style: italic;
   font-weight: 600;
 }
 
 .paragraph__2 {
-  text-decoration: wavy;
+  text-decoration: underline;
   font-style: italic;
   font-weight: 600;
 }
@@ -796,7 +807,7 @@ a {
   font-style: italic;
   position: absolute;
   bottom: 0;
-  right: 0;
+  left: 0;
   padding: 1rem;
 }
 
@@ -836,4 +847,16 @@ a {
 .block-plans .card {
   max-width: 500px;
   margin: 0 auto;
+}
+
+.block-plans-header {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+/* testimonial-block */
+
+.testimonial-header {
+  text-align: center;
+  margin: 1.5rem 0;
 }
