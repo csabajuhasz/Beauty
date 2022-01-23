@@ -514,6 +514,7 @@ a {
 
 .testimonial__image {
   position: relative;
+  border-radius: 10px;
 }
 
 .testimonial__image > img {
@@ -545,6 +546,11 @@ a {
 
 .callout--primary {
   background: var(--color-primary);
+  color: #fff;
+}
+
+.callout--secondary {
+  background: linear-gradient(rgb(52, 54, 52) 30%, #0c0b0b);
   color: #fff;
 }
 
@@ -822,6 +828,9 @@ a {
     text-align: left;
     font-size: 1.5rem;
   }
+  .paragraph__3 {
+    font-size: 2.5rem;
+  }
 }
 
 @media screen and (min-width: 820px) {
@@ -832,6 +841,11 @@ a {
   .paragraph__1 .paragraph__2 {
     font-size: 1.5rem;
   }
+
+  .paragraph__3 {
+    font-size: 2.5rem;
+  }
+
   .main__text > h2 {
     font-size: 2.5rem;
   }
