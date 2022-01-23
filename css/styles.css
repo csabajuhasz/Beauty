@@ -224,12 +224,12 @@ a {
 }
 
 .btn--secondary {
-  background: var(--color-secondary);
+  background: var(--color-body-darker);
   color: #fff;
 }
 
 .btn--secondary:hover {
-  background: #f57268;
+  background: var(--color-secondary);
 }
 
 .btn--accent {
@@ -303,8 +303,13 @@ a {
   overflow: hidden;
   position: relative;
 }
+
 .card__header {
   text-align: center;
+}
+
+.card__body {
+  background-color: rgba(219, 156, 141, 0.315);
 }
 
 .card__header,
@@ -659,7 +664,7 @@ a {
 
 .nav__item {
   padding: 0.5rem 2rem;
-  border-bottom: 1px solid rgb(109, 104, 104);
+  border-bottom: 0.1px solid rgb(163, 160, 160);
 }
 
 .nav__item > a {
@@ -780,11 +785,12 @@ a {
   padding-left: 1rem;
 }
 
-.main__text > h2 {
+.main__text > h1 {
   margin-top: 1rem;
   margin-bottom: 0.5rem;
   font-size: 2.5rem;
   color: #ccc;
+  padding-left: 1.5rem;
 }
 
 .paragraph__1 {
@@ -821,7 +827,7 @@ a {
 @media screen and (min-width: 820px) {
   .main__text {
     text-align: left;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
   .paragraph__1 .paragraph__2 {
     font-size: 1.5rem;
